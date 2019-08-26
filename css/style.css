@@ -1,7 +1,7 @@
 html,body {
     font-family: 'Courier New', Courier, monospace;
     height: 100%;
-    
+
     background-attachment: fixed, scroll;
     background-image: url("../img/bg-pieces-grey.png"), url("../img/bg-grey-tile.png");
     background-position: center bottom, 0 0;
@@ -11,7 +11,23 @@ html,body {
 
 .container {
     margin: 50px auto;
-    width: 400px;
+    width: 545px;
+}
+
+.left{
+    float: left;
+    color: white;
+    margin-right: 40px;
+    text-align: center;
+}
+
+.instructions {
+    margin: 20px 0 10px 0;
+}
+
+.ins1{
+    border: 2px solid white;
+    padding: 2px 7px;
 }
 
 .game {

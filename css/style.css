@@ -1,5 +1,6 @@
-body {
+html,body {
     font-family: 'Courier New', Courier, monospace;
+    height: 100%;
 }
 
 .container {
@@ -89,7 +90,7 @@ body {
     width: 50%;
 }
 
-#header{
+#logoheader{
     color: white;
     font-size: 2em;
     font-weight: bold;

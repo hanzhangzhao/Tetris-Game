@@ -57,7 +57,7 @@ html,body {
 }
 
 .none {
-    background: url(../img/bg-grey-tile.png), linear-gradient(white, white);
+    background: url(../img/bg-grey-tile.png), linear-gradient(#222, #222);
     background-blend-mode: exclusion;
 }
 

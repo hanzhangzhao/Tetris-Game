@@ -1,0 +1,98 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    margin: 50px auto;
+    width: 400px;
+}
+
+.game {
+    width: 200px;
+    height: 400px;
+
+    /* background-image: url("../img/bg-pieces-grey.png"), url("../img/bg-grey-tile.png");
+    background-position: center bottom, 0 0;
+    background-repeat: repeat-x, repeat;
+    background-size: 100%; */
+
+    border: 10px solid white;
+    box-shadow: 10px 10px 0 0 #42424280;
+    position: relative;
+    float: left;
+}
+
+.next {
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    border: 2px solid #e2e2e2;
+    margin-right: 2px;
+    position: relative;
+    /* float: left;
+    margin-left: 40px; */
+}
+
+.info {
+    /* position: relative;
+    float: left;
+    margin-left: 40px; */
+    margin-top: 20px;
+}
+
+.none,
+.current,
+.done {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.none {
+    background: url(../img/bg-grey-tile.png), linear-gradient(white, white);
+    background-blend-mode: exclusion;
+}
+
+.current {
+    background: rgb(206, 232, 255);
+    background: linear-gradient(125deg, rgba(206, 232, 255, 1) 0%, rgba(138, 207, 254, 1) 62%, rgba(0, 188, 226, 1) 100%);
+    border: 1px solid #aaa;
+}
+
+.done {
+    background: rgb(198, 198, 198);
+    background: linear-gradient(125deg, rgba(198, 198, 198, 1) 0%, rgba(157, 157, 157, 1) 62%, rgba(107, 107, 107, 1) 100%);
+    border: 1px solid #777777;
+}
+
+.bg-gray {
+    background-attachment: fixed, scroll;
+    background-image: url("../img/bg-pieces-grey.png"), url("../img/bg-grey-tile.png");
+    background-position: center bottom, 0 0;
+    background-repeat: repeat-x, repeat;
+    background-size: 306px 67.5px, 13.5px;
+}
+
+.right {
+    background: #fff;
+    padding: 20px;
+    box-shadow: 10px 10px 0 0 #42424280;
+    position: relative;
+    float: left;
+    margin-left: 40px;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto 30px auto;
+    width: 50%;
+}
+
+#header{
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: 2px 2px #999;
+    text-align: center;
+}

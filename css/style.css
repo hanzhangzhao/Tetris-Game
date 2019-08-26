@@ -1,6 +1,12 @@
 html,body {
     font-family: 'Courier New', Courier, monospace;
     height: 100%;
+    
+    background-attachment: fixed, scroll;
+    background-image: url("../img/bg-pieces-grey.png"), url("../img/bg-grey-tile.png");
+    background-position: center bottom, 0 0;
+    background-repeat: repeat-x, repeat;
+    background-size: 306px 67.5px, 13.5px;
 }
 
 .container {
@@ -68,11 +74,7 @@ html,body {
 }
 
 .bg-gray {
-    background-attachment: fixed, scroll;
-    background-image: url("../img/bg-pieces-grey.png"), url("../img/bg-grey-tile.png");
-    background-position: center bottom, 0 0;
-    background-repeat: repeat-x, repeat;
-    background-size: 306px 67.5px, 13.5px;
+    
 }
 
 .right {

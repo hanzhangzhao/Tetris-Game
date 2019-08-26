@@ -2,7 +2,7 @@ var local = function() {
     // game object
     var games;
     // time interval
-    var INTERVAL = 200;
+    var INTERVAL = 500;
     // timer
     var timer = null;
 
@@ -65,7 +65,7 @@ var local = function() {
     // count game time
     var timeCounter = function() {
         timeCount = timeCount + 1;
-        if (timeCount == 5) {
+        if (timeCount == 2) {
             timeCount = 0;
             time = time + 1;
             games.setTime(time);
